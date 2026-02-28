@@ -1,49 +1,37 @@
-# History files
+# R
 .Rhistory
-.Rapp.history
-
-# Session Data files
 .RData
-.RDataTmp
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
 .Rproj.user/
+*.Rproj
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# GDCdata (large TCGA download cache — do not commit)
+GDCdata/
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# Generated outputs (reproducible from scripts)
+figures/
+tables/
+results/
+ML_dataset_ME4_GeneSymbols_Survival.csv
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# External data files (too large / require user registration)
+data/external/miRTarBase_MTI.csv
+data/external/ENCORI_miRNA_lncRNA.tsv
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
 
-# R Environment Variables
-.Renviron
+# macOS
+.DS_Store
 
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# VSCode / JetBrains
+.vscode/
+.idea/
